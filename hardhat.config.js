@@ -21,6 +21,10 @@ module.exports = {
             url: RINKEBY_RPC_URL,
             accounts: [PRIVATE_KEY],
         },
+        localhost: {
+            chainId: 31337,
+            blockConfirmations: 1,
+        },
     },
     etherscan: {
         // yarn hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
